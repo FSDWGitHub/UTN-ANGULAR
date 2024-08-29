@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop ASUS ZenBook",
+      "description": "Laptop ultradelgada con pantalla Full HD y procesador Intel Core i7.",
+      "price": 1299999,
+      "image": "assets/foto1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone Samsung Galaxy S20",
+      "description": "Smartphone con cámara de 64 MP, pantalla AMOLED y procesador Exynos 990.",
+      "price": 99999,
+      "image": "assets/foto2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Tablet Apple iPad Pro",
+      "description": "Tablet con pantalla Liquid Retina, chip M1 y compatibilidad con Apple Pencil.",
+      "price": 1099000,
+      "image": "assets/foto3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Monitor LG UltraWide",
+      "description": "Monitor IPS de 34 pulgadas con resolución 3440x1440 y HDR10.",
+      "price": 599000,
+      "image": "assets/foto4.jpg"
+    }
+  ]
+}

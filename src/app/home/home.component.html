@@ -1,0 +1,14 @@
+<div class="container">
+    <h1>Inicio</h1>
+    <div class="product-list">
+      <div class="product-card" *ngFor="let product of products">
+        <img [src]="product.image" [alt]="product.name">
+        <h2>{{ product.name }}</h2>
+        <p>${{ product.price }}</p>
+        <a [routerLink]="['/product', product.id]">Ver detalles</a>
+      </div>
+    </div>
+    <div class="contact-link">
+      <a [routerLink]="['/contact']">Contacto</a>
+    </div>
+</div>
